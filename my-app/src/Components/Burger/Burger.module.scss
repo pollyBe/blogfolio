@@ -1,0 +1,18 @@
+.burgerWrap {
+  width: 45px;
+  height: 45px;
+  border-radius: 15px;
+  background-color: #fff8dc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  .icon {
+    font-size: 26px;
+    color: #090947;
+  }
+  .cross {
+    font-size: 26px;
+    color: #090947;
+  }
+}
