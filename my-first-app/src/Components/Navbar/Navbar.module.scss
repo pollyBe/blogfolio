@@ -1,0 +1,57 @@
+.navbar {
+  position: absolute;
+  width: 236px;
+  height: 91vh;
+  background: rgb(221, 248, 248);
+  left: -100%;
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar.active {
+  left: 0;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.link {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.linkActive {
+  font-size: 24px;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.btnWrap {
+  padding: 7px 10px;
+  width: 70%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: cadetblue;
+  cursor: pointer;
+  .modeBtn {
+    background-color: cadetblue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+  }
+}

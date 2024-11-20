@@ -1,0 +1,17 @@
+.searchwrap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.inputBox {
+  display: block;
+  width: 100%;
+  font-size: 24px;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.hide {
+  display: none;
+}
