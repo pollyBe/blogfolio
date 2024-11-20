@@ -10,7 +10,7 @@ const Search = () => {
   const [visibility, setVisibility] = useState(false)
   return (
     <div className={style.searchwrap}>
-
+      <Input type='search' placeholder="Search..." isActive={visibility} />
       <Button btnType='Primary' onClick={()=>setVisibility(visibility ? false : true)}><SearchIcon/></Button>
     </div>
   )
