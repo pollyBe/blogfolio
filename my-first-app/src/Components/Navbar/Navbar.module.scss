@@ -2,13 +2,9 @@
   position: absolute;
   width: 236px;
   height: 91vh;
-  background: rgb(221, 248, 248);
+  background: #fff;
   left: -100%;
   transition: all 0.5s;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
 }
 .navbar.active {
   left: 0;
@@ -20,38 +16,53 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 0 15px;
 }
 
 .link {
-  font-size: 24px;
-  color: black;
-  margin-bottom: 10px;
+  text-align: center;
+  padding: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  border-bottom: 2px solid #dadada;
+  width: 100%;
+  color: #313037;
 }
 
 .linkActive {
-  font-size: 24px;
-  color: red;
-  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+  padding: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #2231aa;
+  border-bottom: 2px solid #dadada;
 }
 
 .btnWrap {
-  padding: 7px 10px;
-  width: 70%;
-  border-radius: 10px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: cadetblue;
+  background-color: #fff;
   cursor: pointer;
+
   .modeBtn {
-    background-color: cadetblue;
+    background-color: #fff;
     width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 5px;
+    padding: 12px;
     cursor: pointer;
-    border: none;
+    border: 2px solid #8d8e97;
   }
+}
+
+.navbarFooter {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }

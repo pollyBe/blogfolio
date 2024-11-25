@@ -3,6 +3,7 @@ import  Cancel  from "../../assets/cancelIcon.svg?react";
 import { useContext } from "react";
 import { ActiveContext } from "../../Сontext/Context";
 
+
 import style from './BurgerMenu.module.scss'
 const BurgerMenu = () => {
   const context = useContext(ActiveContext);

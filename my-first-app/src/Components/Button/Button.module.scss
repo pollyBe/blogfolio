@@ -2,10 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  background-color: #2231aa;
+  width: 100%;
   transition: 0.7s ease-in-out;
-
   cursor: pointer;
 }
 
@@ -31,15 +29,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 12px;
   padding: 10px 15px;
   background-color: #e1e1ee;
   transition: 0.7s ease-in-out;
-
+  border: none;
   color: #252b30;
   font-size: 28px;
   font-weight: 600;
-  margin-bottom: 10px;
+  width: 100%;
   &:hover {
     background-color: #929299;
   }

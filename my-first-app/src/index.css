@@ -23,17 +23,14 @@
 body {
   margin: 0;
   height: 100vh;
+  background-color: #f3f3f3;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
 .light-theme {
-  background-color: white;
+  background-color: #f3f3f3;
   color: black;
 }
 .dark-theme {
-  background-color: #242424;
+  background-color: #313037;
   color: white;
 }
