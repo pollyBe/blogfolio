@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom"
-import Form from "../../Components/Form/Form"
+import SignUpForm from "../../Components/SignUpForm/SignUpForm"
 
 import style from './SignUp.module.scss'
 const SignUp = () => {
@@ -9,7 +9,7 @@ const SignUp = () => {
         <NavLink to="/home">Back to home</NavLink>
         <h1>Sign Up</h1>
       </div>
-      <Form/>
+      <SignUpForm/>
     </div>
   )
 }

@@ -1,5 +1,5 @@
 // import { useMemo, useState } from "react"
-// import style from './Person.module.scss'
+import style from './Person.module.scss'
 // import Button from "../Button/Button"
 import User from '../../assets/user.svg?react'
 import { NavLink } from "react-router-dom"
@@ -15,9 +15,9 @@ const Person = () => {
   //   return userName.split(' ').map((item)=>{return item[0]}).join('')
   // },[userName])
   return (
-    <>
+    <div className={style.person}>
       {/* {authorized ?
-        <div className={style.person}>
+        <div >
           <div className={style.initials}>
             <span>{ initials}</span>
           </div>
@@ -26,7 +26,7 @@ const Person = () => {
           </div>
         </div> : */}
         <NavLink to='/home/sign-up'><User /></NavLink>
-    </>
+    </div>
   )
 }
 

@@ -9,13 +9,15 @@
 
 .button {
   border: none;
+  width: 100%;
   padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #2231aa;
   color: #f0f8ff;
-  font-size: 28px;
+  font-size: 18px;
+  line-height: 24px;
   font-weight: 600;
   cursor: pointer;
   &:disabled {

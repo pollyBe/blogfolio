@@ -5,21 +5,21 @@ interface IInputProps {
   title?: string,
   placeholder: string,
   type: string,
-  isActive:boolean
 }
 
-const Input = ({ title, placeholder, type, isActive=false }: IInputProps) => {
+const Input = ({ title, placeholder, type }: IInputProps) => {
   const [text, setText] = useState(placeholder)
 
   return (
-    <>
-      <label>{title}</label>
+    <div className={style.inputWrap}>
+      <label className={style.label}>{title}</label>
       <input
-        className={isActive ? style.hide : style.inputBox }
+        className={ style.inputBox }
         type={type}
-        placeholder={text}
+        value={text}
+        placeholder={placeholder}
         onChange={(e) => setText(e.target.value)}></input>
-    </>)
+    </div>)
 }
 
 export default Input;
