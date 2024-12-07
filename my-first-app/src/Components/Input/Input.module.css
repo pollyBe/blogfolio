@@ -12,15 +12,16 @@
   color: #8d8e97;
   padding: 18px 20px;
   margin-top: 8px;
-  &:focus {
-    border: 1px solid #8d8e97;
-    color: #313037;
-  }
-  &:disabled {
-    background-color: #8d8e97;
-    pointer-events: none;
-  }
 }
+.inputBox:focus {
+  border: 1px solid #8d8e97;
+  color: #313037;
+}
+.inputBox:disabled {
+  background-color: #8d8e97;
+  pointer-events: none;
+}
+
 .inputBox.error {
   border: 1px solid #fd3419;
-}
+}/*# sourceMappingURL=Input.module.css.map */
